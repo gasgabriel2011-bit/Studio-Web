@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Développeur web freelance pour sites vitrines, portfolios et interfaces professionnelles modernes, responsives et faciles à faire évoluer."
+    />
+    <title>Développeur web freelance - Sites modernes et évolutifs</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+          <span class="brand-mark" aria-hidden="true">DW</span>
+          <span>
+            <strong data-site-brand>Studio Web</strong>
+            <small>Développeur freelance</small>
+          </span>
+        </a>
+
+        <nav class="nav" data-nav aria-label="Navigation principale">
+          <a href="#accueil">Accueil</a>
+          <a href="#services">Services</a>
+          <a href="#realisations">Réalisations</a>
+          <a href="#processus">Processus</a>
+          <a href="#propriete">Propriété</a>
+          <a href="#offres">Offres</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="button button-primary header-cta" href="#contact">Demander un devis</a>
+
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
+          <span class="sr-only">Ouvrir le menu</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-menu" data-mobile-nav aria-label="Navigation mobile">
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#processus">Processus</a>
+        <a href="#propriete">Propriété</a>
+        <a href="#offres">Offres</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="accueil">
+        <div class="surface-grid" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Design, développement, mise en ligne et accompagnement</p>
+            <h1>Création de sites web modernes, clairs et prêts à évoluer.</h1>
+            <p class="hero-lead">
+              Je conçois des sites vitrines, portfolios et interfaces professionnelles pour les indépendants,
+              petites entreprises et projets créatifs, avec un accompagnement simple jusqu'à la mise en ligne.
+            </p>
+            <div class="hero-actions" aria-label="Actions principales">
+              <a class="button button-primary" href="#realisations">Voir mes réalisations</a>
+              <a class="button button-ghost" href="#contact">Discuter de mon projet</a>
+            </div>
+            <ul class="trust-list" aria-label="Points de confiance">
+              <li>Site responsive</li>
+              <li>Hébergement à votre nom</li>
+              <li>Design moderne</li>
+              <li>Accompagnement clair</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Composition visuelle d'un site web en construction">
+            <div class="visual-backplate"></div>
+            <div class="browser-mockup">
+              <div class="browser-top">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="browser-address">votre-site.fr</div>
+              </div>
+              <div class="mockup-body">
+                <div class="mockup-sidebar">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="mockup-main">
+                  <div class="mockup-kicker"></div>
+                  <div class="mockup-title"></div>
+                  <div class="mockup-text"></div>
+                  <div class="mockup-text short"></div>
+                  <div class="mockup-cards">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-card floating-card-one">
+              <span class="mini-icon" aria-hidden="true"></span>
+              <strong>Design</strong>
+              <small>Direction visuelle</small>
+            </div>
+            <div class="floating-card floating-card-two">
+              <span class="mini-icon code" aria-hidden="true"></span>
+              <strong>Code</strong>
+              <small>Front-end propre</small>
+            </div>
+            <div class="floating-card floating-card-three">
+              <span class="mini-icon launch" aria-hidden="true"></span>
+              <strong>Mise en ligne</strong>
+              <small>Domaine et hébergement</small>
+            </div>
+            <div class="floating-card floating-card-four">
+              <span class="mini-icon admin" aria-hidden="true"></span>
+              <strong>Espace admin</strong>
+              <small>Option connectable</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Ce que je crée</p>
+            <h2>Des sites pensés pour être beaux, utiles et simples à gérer.</h2>
+            <p>
+              Un site moderne, livré clé en main, sans vous enfermer dans une solution compliquée ou opaque.
+            </p>
+          </div>
+          <div class="card-grid services-grid" data-services></div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="extensions">
+        <div class="container">
+          <div class="section-heading compact reveal">
+            <p class="eyebrow">Services complémentaires</p>
+            <h2>Des options créatives pour aller plus loin.</h2>
+            <p>
+              Le coeur reste la création de sites web. Ces extensions peuvent enrichir un projet quand elles ont du sens.
+            </p>
+          </div>
+          <div class="card-grid extras-grid" data-extra-services></div>
+        </div>
+      </section>
+
+      <section class="section" id="realisations">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Réalisations</p>
+            <h2>Quelques projets et démonstrations.</h2>
+            <p>Les liens seront remplacés par les versions finales ou les démonstrations en ligne.</p>
+          </div>
+          <div class="projects-grid" data-projects></div>
+        </div>
+      </section>
+
+      <section class="section section-deep" id="processus">
+        <div class="container">
+          <div class="section-heading light reveal">
+            <p class="eyebrow">Comment ça se passe ?</p>
+            <h2>Un processus simple, du premier échange à la mise en ligne.</h2>
+          </div>
+          <div class="timeline" data-process></div>
+        </div>
+      </section>
+
+      <section class="section ownership" id="propriete">
+        <div class="container ownership-grid">
+          <div class="ownership-copy reveal">
+            <p class="eyebrow">Vous gardez le contrôle</p>
+            <h2>Vous êtes propriétaire de votre site.</h2>
+            <p>
+              Je peux vous accompagner dans la création des comptes nécessaires, mais le nom de domaine,
+              l'hébergement, les données et les accès principaux restent à votre nom. Vous ne dépendez pas
+              d'un compte personnel du prestataire.
+            </p>
+            <p class="statement">
+              Je travaille comme développeur invité lorsque c'est possible : vous restez propriétaire, je vous aide à construire.
+            </p>
+          </div>
+          <div class="ownership-panel reveal">
+            <div class="ownership-items" data-ownership></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="offres">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Offres</p>
+            <h2>Des formats clairs, adaptés à votre niveau de besoin.</h2>
+            <p>Paiement et devis finalisés après échange. Aucun paiement n'est demandé directement sur ce site.</p>
+          </div>
+          <div class="offers-grid" data-offers></div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="simulateur">
+        <div class="container estimator-grid">
+          <div class="section-heading align-left reveal">
+            <p class="eyebrow">Mini simulateur de projet</p>
+            <h2>Préparez rapidement le niveau de votre demande.</h2>
+            <p>Cette estimation sert uniquement à préparer l'échange.</p>
+          </div>
+
+          <div class="estimator reveal" data-estimator>
+            <fieldset>
+              <legend>Type de projet</legend>
+              <div class="choice-row" data-project-type>
+                <button type="button" class="choice is-active" data-value="vitrine">Site vitrine</button>
+                <button type="button" class="choice" data-value="portfolio">Portfolio</button>
+                <button type="button" class="choice" data-value="avance">Site avancé</button>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Nombre de pages</legend>
+              <div class="choice-row" data-page-count>
+                <button type="button" class="choice is-active" data-value="small">1-3</button>
+                <button type="button" class="choice" data-value="medium">4-7</button>
+                <button type="button" class="choice" data-value="large">8+</button>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Options utiles</legend>
+              <div class="option-grid">
+                <label><input type="checkbox" value="video" /> Vidéo</label>
+                <label><input type="checkbox" value="3d" /> 3D</label>
+                <label><input type="checkbox" value="admin" /> Espace admin</label>
+                <label><input type="checkbox" value="support" /> Accompagnement complet</label>
+              </div>
+            </fieldset>
+
+            <div class="estimate-result" aria-live="polite">
+              <span>Niveau estimé</span>
+              <strong data-estimate-label>Projet simple</strong>
+              <p data-estimate-copy>
+                Une base claire pour présenter votre activité et recevoir des demandes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Parlons de votre projet.</h2>
+            <p>
+              Expliquez-moi ce que vous souhaitez créer : site vitrine, refonte, portfolio,
+              page de présentation, projet plus avancé ou besoin créatif spécifique.
+            </p>
+            <div class="contact-links" data-contact-links></div>
+          </div>
+
+          <form class="contact-form reveal" data-contact-form>
+            <div class="form-row">
+              <label for="name">Nom</label>
+              <input id="name" name="name" type="text" placeholder="Votre nom" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="votre@email.fr" required />
+            </div>
+            <div class="form-row">
+              <label for="project-kind">Type de projet</label>
+              <select id="project-kind" name="project-kind">
+                <option>Site vitrine</option>
+                <option>Refonte</option>
+                <option>Portfolio</option>
+                <option>Site avancé</option>
+                <option>Besoin créatif spécifique</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet, votre activité et votre objectif." required></textarea>
+            </div>
+            <button class="button button-primary" type="submit">Envoyer la demande</button>
+            <p class="form-note" data-form-note role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong data-footer-brand>Studio Web</strong>
+          <p>Développeur web freelance</p>
+          <p>Site vitrine — Développement web — Design — Mise en ligne</p>
+        </div>
+        <nav aria-label="Navigation de pied de page">
+          <a href="#services">Services</a>
+          <a href="#realisations">Réalisations</a>
+          <a href="#offres">Offres</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="legal-links">
+          <a href="#mentions-legales">Mentions légales</a>
+          <a href="#confidentialite">Confidentialité</a>
+          <span>© <span data-year></span></span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
